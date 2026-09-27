@@ -1,0 +1,5 @@
+[project]
+name = "cipher-python-only"
+version = "2.4.0"
+description = "CIPHER criminal intelligence platform - FastAPI backend with PostgreSQL/Supabase, Neo4j, RAG and Face Intelligence"
+requires-python = ">=3.12,<3.14"

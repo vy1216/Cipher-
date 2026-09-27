@@ -1,0 +1,48 @@
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local databases / runtime state
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+data/rag/
+/tmp/
+
+# Local logs / generated reports
+*.log
+*.pid
+backend_hashes.txt
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Deployment/build output
+build/
+dist/
+*.egg-info/
+.vercel/
+
+# Local test artifacts
+coverage.xml
+playwright-report/
+test-results/
